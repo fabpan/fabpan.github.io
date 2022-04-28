@@ -17,6 +17,7 @@
         padding-right: 0px;
         width: auto;
         max-width: 584px;
+        position:relative;
         }
       .RNNXgb {
          display:flex;
@@ -30,7 +31,6 @@
          width:638px;
          width:auto;
          max-width:584px;
-         position:relative;
         }
         .RNNXgb:hover,
         .sbfc .RNNXgb {

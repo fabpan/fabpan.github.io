@@ -13,10 +13,8 @@
     .A8SBwf {
         margin: 0 auto;
         width: 640px;
-        padding-top: 16px;
-        padding-bottom: 3px;
-        padding-left: 6px;
-        padding-right: 12px;
+        padding-top: 6px;
+        padding-right: 0px;
         width: auto;
         max-width: 584px;
         }
@@ -32,6 +30,7 @@
          width:638px;
          width:auto;
          max-width:584px;
+         position:relative;
         }
         .RNNXgb:hover,
         .sbfc .RNNXgb {

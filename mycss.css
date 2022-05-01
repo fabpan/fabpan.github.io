@@ -12,6 +12,7 @@ text-decoration: none;
 
 .topbarlev0 {
     height:48px;
+    margin: 6px 0;
 }
 .topbarlev1{
     padding-right:10%;
@@ -78,8 +79,9 @@ display:inline-block;margin-top:13px;margin-left:13px;fill:#9aa0a6;height:20px;l
 }
 .gbqfba:hover {
     border:1px solid #dadce0;
+}
 
-.intext{
+.intext {
     font-size:16px;
     height:34px;
     border:none;
@@ -89,7 +91,7 @@ display:inline-block;margin-top:13px;margin-left:13px;fill:#9aa0a6;height:20px;l
     display:flex;
     flex:100%;
 }
-}
+
 .lJ9FBc input[type="submit"]:hover {
  box-shadow:0 1px 1px rgba(0,0,0,.1);
  background-color:#f8f9fa;

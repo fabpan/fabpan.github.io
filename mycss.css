@@ -23,13 +23,7 @@ text-decoration: none;
     padding:20px;
 }
 .formCell {
-    margin: 0 auto;
-    width: 640px;
     padding-top: 6px;
-    padding-right: 0px;
-    width: auto;
-    max-width: 584px;
-    position:relative;
 }
 .logoBar {
      height: 92px;
@@ -45,29 +39,27 @@ text-decoration: none;
  color:#4285f4;
  font:16px/16px roboto-regular, arial, sans-serif;
  position:absolute;
- left:200px;
- bottom:-15px;
+ left:205px;
+ bottom:-5px;
  white-space:nowrap
 }
-.RNNXgb {
+.myRNNXgb {
  display:flex;
- z-index:3;
  height:44px;
- background:#fff;
  border:1px solid #dfe1e5;
- box-shadow:none;
  border-radius:24px;
  margin:0 auto;
- width:638px;
- width:auto;
  max-width:584px;
 }
-.RNNXgb:hover,
-.sbfc .RNNXgb {
+.myRNNXgb:hover{
      background-color:#fff;
      box-shadow:0 1px 6px rgba(32,33,36,.28);
      border-color:rgba(223,225,229,0)
 }
+.magGlass{
+display:inline-block;margin-top:13px;margin-left:13px;fill:#9aa0a6;height:20px;line-height:20px;width:20px;
+}
+
 .gbqfba {
      background-color:#f8f9fa;
      border:1px solid #f8f9fa;
@@ -83,6 +75,20 @@ text-decoration: none;
      text-align:center;
      cursor:pointer;
      user-select:none
+}
+.gbqfba:hover {
+    border:1px solid #dadce0;
+
+.intext{
+    font-size:16px;
+    height:34px;
+    border:none;
+    outline:none;
+    margin:2px 20px;
+    margin-left: 5px;
+    display:flex;
+    flex:100%;
+}
 }
 .lJ9FBc input[type="submit"]:hover {
  box-shadow:0 1px 1px rgba(0,0,0,.1);
@@ -142,7 +148,7 @@ div.jYcx0e {
 
 .jfk-textinput {
  width:100%;
- text-align:left
+ text-align:left;
  -webkit-border-radius:1px;
  -moz-border-radius:1px;
  border-radius:1px;

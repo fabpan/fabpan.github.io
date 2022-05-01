@@ -1,64 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-	<title>CS50w lezione 0</title>
-	<style>
-		.w3-tangerine {
-  		font-family: "Tangerine", serif;
-		}
-		img{
-			display:inline-block;
-			width:30%;
-			margin-left:auto;
-			margin-right:auto;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <title>Google Search</title>
+    <link rel="stylesheet" href="mycss.css">
+
+
 </head>
-<body>
-	<br><br>
-	<div class="w3-container w3-red w3-center" style="width:50%;margin:auto;">
-		<h1 style="color: #00d0d0;">CS50w lezione 0</h1>
-	</div>
-	<div class="row my-3">
-		<div class="col-3"></div>
-		<div class="col-3 ps-5 me-1 border" >
-			<h2>Liste</h2>
-			<h3 >Lista ordinata</h3>
-			<ol >
-				<li>Primo elemento</li>
-				<li>Secondo elemento</li>
-				<li>Terzo elemento</li>
-			</ol>
-			<h3 >Lista non ordinata</h3>
-			<ul >
-				<li>Primo elemento</li>
-				<li>Secondo elemento</li>
-				<li>Terzo elemento</li>
-			</ul>
-		</div>
-		<div class="col-3 border">
-			<h2>Immagini</h2>
-			<img  src="gatti.jpg" alt="gatti" style='width:300px; height:300px; max-width: 100%;height: auto;'>
-		</div>
+<body style="font-family: Arial; font-size:13px;">
 
-		<div class="col-2 border">
-			<a href="finale1.html">finale1</a>
-		</div>
-	</div>
+   <div class="topbarlev0">
+        <div class="topbarlev1" >
+            <div style="margin:20px; font-size:13px">
+                <a  href="finale2.html" target="_top">Images</a>
+                <a style="margin:20px;white-space:nowrap" href="finale3.html" target="_top">Advanced search</a>
+            </div>
+        </div>
+   </div>
 
+    <div class="logoBar">
+        <div class="logoCell">
+            <img src="colori.png" width="272" height="92">
+            <span class="subLogo">simple search</span>
+        </div>
+    </div>
 
+    <div class="formBand">
+        <form action="https://www.google.it/search" method="GET" role="search">
+             <div class="formCell">
+                <div class="RNNXgb">
+                     <span style="display:inline-block;margin-top:13px;margin-left:13px;fill:#9aa0a6;height:20px;line-height:20px;width:20px">
+                         <svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" style="color:#9aa0a6">
+                             <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
+                         </svg>
+                     </span>
+                     <input type="text" name="q" style="font-size:16px;height:34px;border:none; outline:none; margin:2px 20px; margin-left: 5px;display:flex; flex:100%;">
+                </div>
+                 <div class="lJ9FBc" style="height:70px;padding-top:18px">
+                        <center>
+                            <input class="gbqfba" name="btnK" type="submit" role="button" value="Google search">
+                            <input class="gbqfba" name="btnI" type="submit" role="button" value="I'm Feeling Lucky">
+                        </center>
+                </div>
+             </div>
+        </form>
+    </div>
 
-
-
-	<div class="w3-container w3-teal w3-center w3-padding-12" style="width:60%;margin:auto;">
-		<p class="w3-xlarge">Questo è il mio sito ospitato da GitHub Pages</p>
-		<p class="w3-xxlarge w3-tangerine w3-right-align" style="width:40%;margin:auto;" >Fabrizio</p>
-	</div>
 </body>
 </html>
